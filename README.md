@@ -2,6 +2,7 @@ cinema
 ==============
 Cinema is a project that automates the ticketing process, scheduling, report generation.
 
+
 Objectives
 ========
 1. Three roles with different rights: admin, cashier and user.
@@ -18,13 +19,19 @@ poster, hire date;
 9. Automatic removal of booking, in the case of non-payment for 60 minutes before
 the start of the seance.
 
+
 For launching
 -------------------------
 Use Tomcat for run.
+
 For VM options set `-Duser.language=en -Duser.country=en`.
+
 Set properties in `src\main\resources\spring\application.properties`.
+
 Initialize database with `src\main\resources\db\initDB.sql` and `src\main\resources\db\rating_table.sql`.
+
 It is necessary to install a Lombok plugin!
+
 
 Technologies
 -------------------------
