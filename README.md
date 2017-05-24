@@ -20,7 +20,20 @@ the start of the seance.
 
 For launching
 -------------------------
-Use Tomcat for run. 
+Use Tomcat for run.
 For VM options set `-Duser.language=en -Duser.country=en`.
 Set properties in `src\main\resources\spring\application.properties`.
 Initialize database with `src\main\resources\db\initDB.sql` and `src\main\resources\db\rating_table.sql`.
+It is necessary to install a Lombok plugin!
+
+Technologies
+-------------------------
+- Java 8
+- Oracle Object-Oriented model
+- Spring Framework 4.3.3
+- Spring JDBC
+- Spring Security
+- Vaadin
+- Maven
+- Lombok
+- Tomcat
