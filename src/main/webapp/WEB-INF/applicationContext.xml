@@ -10,7 +10,8 @@
                            http://www.springframework.org/schema/task http://www.springframework.org/schema/task/spring-task.xsd">
 
     <import resource="classpath:spring/transaction-config.xml" />
-    <context:property-placeholder location="classpath:spring/application.properties" system-properties-mode="OVERRIDE"/>
+    <context:property-placeholder location="classpath:spring/application.properties"
+                                  system-properties-mode="OVERRIDE"/>
 
     <task:executor id="emailExecutor" pool-size="10"/>
     <task:annotation-driven executor="emailExecutor"/>
